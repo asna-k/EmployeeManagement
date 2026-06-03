@@ -137,6 +137,8 @@ STATIC_URL = '/static/'
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
-CORS_ALLOW_ALL_ORIGINS = [
-    "https://employee-management-frontend-zeta-rust.vercel.app"
+
+
+CORS_ALLOWED_ORIGINS = [
+    "https://employee-management-frontend-zeta-rust.vercel.app",
 ]
